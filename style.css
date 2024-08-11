@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+body {
+    background-color: #dddddd;
+    color: rgba(0, 0, 0, 0.9);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#interface {
+    width: 600px;
+    background-color: #ffffff;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+    padding: 10px;
+}
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    text-transform: none;
+    position: relative;
+    top: -10px;
+    left: -50px;
+}
+
+nav#menu li {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    transition: background-color 1s;
+    font-size: 11pt;
+}
+
+nav#menu li:hover {
+    background-color: #888888;
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+nav#menu a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+nav#menu a:hover {
+    color: darkblue;
+    text-decoration: underline;
+}
